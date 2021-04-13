@@ -1,15 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    libv8-node (15.14.0.0)
-    mini_racer (0.4.0)
-      libv8-node (~> 15.14.0.0)
+    libv8 (8.4.255.0)
+    mini_racer (0.3.1)
+      libv8 (~> 8.4.255)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  mini_racer
+  mini_racer (= 0.3.1)
 
 BUNDLED WITH
    1.17.3
