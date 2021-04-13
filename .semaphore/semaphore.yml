@@ -10,6 +10,7 @@ blocks:
       jobs:
         - name: Test
           commands:
+            - gcc --version
             - checkout
             - ./script/install-bundler
             - bundle install --deployment --path vendor/bundle
