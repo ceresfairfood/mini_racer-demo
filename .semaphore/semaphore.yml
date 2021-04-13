@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: Test
           commands:
-            - sem-version c 8
+            - sem-version c 7
             - gcc --version
             - checkout
             - ./script/install-bundler
