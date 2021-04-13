@@ -11,4 +11,5 @@ blocks:
         - name: Test
           commands:
             - checkout
+            - ./script/install-bundler
             - bundle install --deployment --path vendor/bundle
